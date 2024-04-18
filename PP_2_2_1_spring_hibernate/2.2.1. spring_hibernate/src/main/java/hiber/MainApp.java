@@ -27,7 +27,7 @@ public class MainApp {
       Car car4 = new Car("Mitsubishi Lancer Evolution IX", 2006);
 
       user1.setCar(car4);
-      car1.setUser(user1);
+      car4.setUser(user1);
 
       user2.setCar(car3);
       car3.setUser(user2);
